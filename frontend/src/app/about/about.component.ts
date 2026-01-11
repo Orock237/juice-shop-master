@@ -127,4 +127,12 @@ export class AboutComponent implements OnInit {
         }
       })
   }
+
+  testSecurity () {
+    const a = 4*4;
+    const password = "Hello World";
+    const username = "world";
+    
+  }
+    
 }
