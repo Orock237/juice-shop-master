@@ -10,4 +10,5 @@ export interface Backup {
   continueCodeFixIt?: string
   language?: string
   banners?: { welcomeBannerStatus?: string, cookieConsentStatus?: string }
+  test?: string
 }
